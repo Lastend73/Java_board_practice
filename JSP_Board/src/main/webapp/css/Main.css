@@ -1,0 +1,45 @@
+@charset "UTF-8";
+div{
+    border: 5px solid black;
+    margin-bottom: 5px;
+}
+#header{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    background-color: skyblue;
+    font-weight: bold;
+}
+#nav{
+    background-color: black;
+}
+
+#nav>ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: flex-end; /*값을 오른쪽 부터나오게 하는거 (오른쪽정렬)*/
+    margin-right: 20px;
+}
+#nav>ul>li{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+#contents{
+    background-color: bisque;
+    min-height: 500px;
+    padding: 15px;
+}
+div#wrap{
+	width: 1200px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
